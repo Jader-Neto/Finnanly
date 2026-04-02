@@ -1,0 +1,64 @@
+{
+  "users": [
+    {
+      "user_id": 1,
+      "nome": "Tester",
+      "email": "test@example.com",
+      "password_hash": "9b8769a4a742959a2d0298c36fb70623f2dfacda8436237df08d8dfd5b37374c",
+      "pix": "",
+      "ativo": true,
+      "created_at": "2026-04-02 00:35:00"
+    }
+  ],
+  "groups": [
+    {
+      "group_id": 1,
+      "nome": "Grupo Teste",
+      "owner_id": 1,
+      "membros": [
+        1
+      ],
+      "created_at": "2026-04-02 00:35:00"
+    }
+  ],
+  "expenses": [
+    {
+      "expense_id": 1,
+      "group_id": 1,
+      "descricao": "Compra teste",
+      "paid_by": 1,
+      "total": 100.0,
+      "split_type": "equal",
+      "participants": [
+        1
+      ],
+      "shares": {
+        "1": 100.0
+      },
+      "items": [],
+      "currency": "BRL",
+      "categoria": "Outros",
+      "created_at": "2026-04-02 00:35:00",
+      "obs": ""
+    }
+  ],
+  "payments": [],
+  "categories": [
+    "Alimentação",
+    "Transporte",
+    "Moradia",
+    "Viagem",
+    "Lazer",
+    "Saúde",
+    "Educação",
+    "Mercado",
+    "Contas",
+    "Outros"
+  ],
+  "counters": {
+    "next_user_id": 2,
+    "next_group_id": 2,
+    "next_expense_id": 2,
+    "next_payment_id": 1
+  }
+}

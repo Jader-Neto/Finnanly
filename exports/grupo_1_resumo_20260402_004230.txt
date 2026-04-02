@@ -1,0 +1,21 @@
+Relatório do Grupo: GrupoTest
+============================================================
+Gerado em: 2026-04-02 00:42:30
+
+Membros:
+- Bob (bob@example.com)
+- Alice (alice@example.com)
+
+Despesas:
+
+Pagamentos:
+- ID 1 | Bob -> Alice | R$ 20.00
+
+Saldos:
+- Bob: R$ 20.00
+- Alice: R$ -20.00
+
+Totais por categoria:
+
+Liquidação sugerida:
+- Alice paga R$ 20.00 para Bob
